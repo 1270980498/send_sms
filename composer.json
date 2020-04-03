@@ -1,0 +1,29 @@
+{
+    "name": "caopeng/send_sms",
+    "description": "duanxinfasong",
+    "type": "1",
+    "require": {
+        "php": ">=7.1",
+        "alibabacloud/client": "^1.5",
+        "qcloudsms/qcloudsms_php": "0.1.*"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "caopeng",
+            "email": "1270980498@.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Caopeng\\Sms\\" : "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "sms": "config/config.php"
+            }
+        }
+    }
+}
